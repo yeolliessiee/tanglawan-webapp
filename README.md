@@ -33,4 +33,4 @@ ito naman yung default code sa jsx file: for example home
 
 after nung line ng return, parang html nalang din yung pagcocode sa loob nung return() function, if may constants man kayo gagamitin kayo na bahala. make sure na consistent lahat nung naming, thanksss 
 
-src/assets/image.png
+![Logo](src/assets/image.png)
