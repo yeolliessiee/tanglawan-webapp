@@ -31,9 +31,9 @@ src/
 
 ito naman yung default code sa jsx file: for example home
 
-afer nung line ng return, parang html nalang din yung pagcocode sa loob nung return() function, if may constants man kayo gagamitin kayo na bahala. make sure na consistent lahat nung naming, thanksss 
+after nung line ng return, parang html nalang din yung pagcocode sa loob nung return() function, if may constants man kayo gagamitin kayo na bahala. make sure na consistent lahat nung naming, thanksss 
 
-------------------------------------------------------------------------------------------------
+
 import React from "react";
 import "./Home.css";
 
@@ -46,4 +46,3 @@ function Home() {
 }
 
 export default Home;
------------------------------------------------------------------------------------------------
