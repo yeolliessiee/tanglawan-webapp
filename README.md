@@ -33,16 +33,4 @@ ito naman yung default code sa jsx file: for example home
 
 after nung line ng return, parang html nalang din yung pagcocode sa loob nung return() function, if may constants man kayo gagamitin kayo na bahala. make sure na consistent lahat nung naming, thanksss 
 
-
-import React from "react";
-import "./Home.css";
-
-function Home() {
-  return (
-    <div className="home">
-      <h1>Home Page</h1>
-    </div>
-  );
-}
-
-export default Home;
+src/assets/image.png
