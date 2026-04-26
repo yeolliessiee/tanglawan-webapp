@@ -1,8 +1,10 @@
 note: follow niyo tong directory kapag gagawa ng pages, so under src -> pages -> home (for example), kasama ni Home.jsx si Home.css, ganun din mangyayari sa iba
 
 mga need niyo muna na idownload sa laptop:
+```
 Git
 React
+```
 
 kapag na download niyo na, punta kayo sa repository sa git, tapos mag open kayo ng terminal sa vscode, then git clone [link ng repo], tapos pag naclone niyo na sa terminal, mag npm install kayo:
 
