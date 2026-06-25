@@ -1,40 +1,17 @@
+import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 
-import { useState } from "react";
-
-export function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const closeAll = () => {
-    setMenuOpen(false);
-    setDropdownOpen(false);
-  };
-
+export default function Header() {
   return (
-    <header className="header">
-
-      <div className="logo-row">
-
-        <div className="logo-title">
-            <span className="icon">
-              <img src="pics/logo.png" alt="logo"/>
-            </span>
-            <span className="name">TANGLAWAN</span>
-          </div>
-
-          <div className="navbar">
-            <Link to="/" onClick={closeAll}>Home</Link>
-            <Link to="/about" onClick={closeAll}>About</Link>
-            <Link to="/privacy" onClick={closeAll}>Privacy Policy</Link>
-            <div className="login"><Link to="/login" onClick={closeAll}>Patient Login</Link></div>
-          </div>
-        
+    <header className="site-header p-4">
+      <div className="max-w-6xl mx-auto flex items-center justify-between">
+        <a href="/" className="nav-logo-text font-bold text-xl">TANGLAWAN</a>
+        <nav className="space-x-4">
+          <a href="/about" className="text-gray-300 hover:text-blue-300">About</a>
+          <a href="/privacy" className="text-gray-300 hover:text-blue-300">Privacy</a>
+          <a href="/login" className="text-gray-300 hover:text-blue-300">Login</a>
+        </nav>
       </div>
-      
     </header>
   );
 }
-
-export default Header;
