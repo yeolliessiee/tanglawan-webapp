@@ -1,0 +1,12 @@
+.login-input {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(163, 193, 212, 0.2);
+  color: #A3C1D4;
+  transition: all 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #0071A5;
+  box-shadow: 0 0 10px rgba(0, 113, 165, 0.3);
+  outline: none;
+}
