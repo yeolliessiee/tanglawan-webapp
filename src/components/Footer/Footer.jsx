@@ -1,26 +1,12 @@
+import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
-import { useState } from "react";
-
-export function Footer() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const closeAll = () => {
-    setMenuOpen(false);
-    setDropdownOpen(false);
-  };
-
+export default function Footer() {
   return (
-    <footer className="footer">
-
-      <div className="rights">
-        <p>&copy; 2026 TANGLAWAN. All rights reserved.</p>
+    <footer className="site-footer text-center py-8">
+      <div className="max-w-6xl mx-auto text-sm text-gray-500">
+        © 2026 TANGLAWAN. All rights reserved.
       </div>
-      
     </footer>
   );
 }
-
-export default Footer;
