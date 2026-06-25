@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling for page jumps */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Deep clinical/space ambient background */
+body {
+  background: linear-gradient(135deg, #000000 0%, #122131 40%, #003B5C 100%);
+  background-attachment: fixed;
+  color: #A3C1D4;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Reusable Glassmorphism Card for hardware data displays */
+.card-glow {
+  background: linear-gradient(145deg, rgba(18, 33, 49, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(163, 193, 212, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-glow:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(0, 113, 165, 0.6);
+  box-shadow: 0 20px 40px -15px rgba(0, 59, 92, 0.7);
+}
+
+/* Uniform action button gradients */
+.btn-gradient {
+  background: linear-gradient(90deg, #003B5C 0%, #0071A5 100%);
+  color: #ffffff !important;
+  transition: all 0.3s ease, transform 0.2s ease;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.95;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 113, 165, 0.5);
+}
+
+/* Custom linear layout dividers */
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #003B5C, #A3C1D4, #003B5C, transparent);
+  margin: 2rem 0;
+}

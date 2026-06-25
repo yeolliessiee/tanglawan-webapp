@@ -1,8 +1,12 @@
-/* Unique text mask for massive screen headers */
-.home-hero-title {
+.privacy-title {
   background: linear-gradient(to right, #A3C1D4, #0071A5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 800;
+}
+
+.section-title {
+  color: #0071A5;
+  border-left: 3px solid #0071A5;
+  padding-left: 0.75rem;
 }
